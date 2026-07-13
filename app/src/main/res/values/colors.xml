@@ -1,0 +1,8 @@
+<resources>
+    <color name="bg_dark">#121218</color>
+    <color name="bg_card">#1E1E28</color>
+    <color name="accent_cyan">#25F4EE</color>
+    <color name="accent_pink">#FE2C55</color>
+    <color name="text_main">#FFFFFF</color>
+    <color name="text_sub">#9A9AA8</color>
+</resources>

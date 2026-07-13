@@ -1,0 +1,21 @@
+{
+  "annonce": "Nouveau temps fort de la team EHPAD dispo ! 🔥",
+  "createur": {
+    "pseudo": "Papy Cool 6",
+    "description": "Team EHPAD — Un clan. Une famille. Une force. 💀🎮",
+    "tiktok": "https://www.tiktok.com/@papycool2a"
+  },
+  "planning": [
+    { "titre": "Live Warzone avec la team EHPAD", "date": "2026-07-15 21:00", "theme": "Gaming" },
+    { "titre": "Live détente questions/réponses", "date": "2026-07-18 20:30", "theme": "Discussion" }
+  ],
+  "moments": [
+    { "titre": "La victoire de fou en fin de live", "date": "12/07/2026", "url": "https://www.tiktok.com/@papycool2a/video/XXXXXXXX" }
+  ],
+  "temps_forts": [
+    { "titre": "Le fou rire avec la commu", "date": "10/07/2026", "url": "https://www.tiktok.com/@papycool2a/video/XXXXXXXX" }
+  ],
+  "resume": [
+    { "titre": "Résumé du live du 12 juillet", "date": "12/07/2026", "url": "https://www.tiktok.com/@papycool2a/video/XXXXXXXX" }
+  ]
+}

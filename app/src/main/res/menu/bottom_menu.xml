@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/tab_accueil" android:title="Accueil"
+        android:icon="@android:drawable/ic_menu_view"/>
+    <item android:id="@+id/tab_planning" android:title="Planning"
+        android:icon="@android:drawable/ic_menu_my_calendar"/>
+    <item android:id="@+id/tab_moments" android:title="Moments"
+        android:icon="@android:drawable/ic_menu_gallery"/>
+    <item android:id="@+id/tab_forts" android:title="Temps forts"
+        android:icon="@android:drawable/star_on"/>
+    <item android:id="@+id/tab_resume" android:title="Résumé"
+        android:icon="@android:drawable/ic_menu_recent_history"/>
+</menu>
