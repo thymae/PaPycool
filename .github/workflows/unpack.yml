@@ -1,0 +1,19 @@
+name: Unpack
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          unzip -o LiveHub.zip
+          rsync -a LiveHub/ .
+          rm -rf LiveHub LiveHub.zip
+          sed -i "s|thymae/PaPYcool|${GITHUB_REPOSITORY}|" app/src/main/java/com/livehub/app/MainActivity.java
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Installation LiveHub"
+          git push
